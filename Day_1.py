@@ -1,6 +1,6 @@
 dial = 50
-
 zeros = 0
+
 turns = ['L522']
 
 f = open("/Users/ewanhuggon/Documents/Projects/input.txt").read().splitlines()
@@ -26,6 +26,8 @@ for turn in f:
         print(dial)
     if dial == 0:
         zeros += 1  
-    print(zeros)
+    
+    
+print(zeros)
     
 
